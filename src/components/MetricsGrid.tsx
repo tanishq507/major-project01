@@ -118,7 +118,7 @@ const MetricsGrid: React.FC = () => {
       <MetricsCard
         title="Current"
         value={currentMetrics.current}
-        unit="A"
+        unit="mA"
         metric="current"
         icon="current"
         previousValue={previousMetrics?.current}
@@ -128,7 +128,7 @@ const MetricsGrid: React.FC = () => {
       <MetricsCard
         title="Power"
         value={currentMetrics.power}
-        unit="W"
+        unit="mW"
         metric="power"
         icon="power"
         previousValue={previousMetrics?.power}

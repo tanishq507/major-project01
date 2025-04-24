@@ -84,7 +84,7 @@ const DataTable: React.FC = () => {
     const data = getData();
     if (data.length === 0) return;
     
-    const headers = ['Battery', 'Timestamp', 'Voltage (V)', 'Current (A)', 'Power (W)', 'SOC (%)', 'SOH (%)', 'Temperature (°C)'];
+    const headers = ['Battery', 'Timestamp', 'Voltage (V)', 'Current (mA)', 'Power (mW)', 'SOC (%)', 'SOH (%)', 'Temperature (°C)'];
     
     const rows = data.map(d => [
       d.batteryName,
