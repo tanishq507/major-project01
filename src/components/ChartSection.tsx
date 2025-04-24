@@ -182,9 +182,9 @@ const ChartSection: React.FC = () => {
       case "voltage":
         return "V"
       case "current":
-        return "A"
+        return "mA"
       case "power":
-        return "W"
+        return "mW"
       case "soc":
       case "soh":
         return "%"
